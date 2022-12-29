@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, Button } from "react-bootstrap";
+import { Link } from "react-bootstrap-icons";
 import logo from '../assets/img/logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from "../assets/img/nav-icon2.svg";
@@ -37,8 +38,8 @@ export const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          {/* <Nav className="me-auto">
-            <a
+          <Nav className="me-auto">
+            <Button
               href="#home"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
@@ -46,8 +47,8 @@ export const NavBar = () => {
               onClick={() => onUpdateActiveLink("home")}
             >
               Home
-            </a>
-            <a
+            </Button>
+            <Button
               href="#skills"
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
@@ -55,8 +56,8 @@ export const NavBar = () => {
               onClick={() => onUpdateActiveLink("skills")}
             >
             Skills
-            </a>
-            <a
+            </Button>
+            <Button
               
                 href="#projects"
                 className={
@@ -68,8 +69,8 @@ export const NavBar = () => {
             >
                 Projects
               
-            </a>
-          </Nav> */}
+            </Button>
+          </Nav>
           <span className="navbar-text">
             <div className="social-icon">
               <a>
