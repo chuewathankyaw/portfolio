@@ -46,19 +46,19 @@ export const Skills = () => {
                   className="skill-slider"
                 >
                   <div className="item">
-                    <img src={meter1} alt="Image" />
+                    <img src={meter1} alt=" " />
                     <h5>Web Development</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image" />
+                    <img src={meter2} alt=" " />
                     <h5>Brand Identity</h5>
                   </div>
                   <div className="item">
-                    <img src={meter3} alt="Image" />
+                    <img src={meter3} alt=" " />
                     <h5>Logo Design</h5>
                   </div>
                   <div className="item">
-                    <img src={meter1} alt="Image" />
+                    <img src={meter1} alt=" " />
                     <h5>Web Development</h5>
                   </div>
                 </Carousel>
@@ -66,7 +66,7 @@ export const Skills = () => {
             </Col>
           </Row>
         </Container>
-        <img className="background-image-left" src={colorSharp} />
+        <img className="background-left" src={colorSharp} />
       </section>
     );
 };
