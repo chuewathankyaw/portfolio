@@ -29,7 +29,7 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand>
-          <a href="#home">
+          <a href={"#home"}>
             <img src={logo} alt="Logo" />
           </a>
         </Navbar.Brand>
@@ -38,27 +38,27 @@ export const NavBar = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Button
-              href="#home"
+            <a
+              href={"#home"}
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("home")}
             >
               Home
-            </Button>
-            <Button
-              href="#skills"
+            </a>
+            <a
+              href={"#skills"}
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("skills")}
             >
             Skills
-            </Button>
-            <Button
+            </a>
+            <a
               
-                href="#projects"
+                href={"#projects"}
                 className={
                   activeLink === "projects"
                     ? "active navbar-link"
@@ -68,7 +68,7 @@ export const NavBar = () => {
             >
                 Projects
               
-            </Button>
+            </a>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
