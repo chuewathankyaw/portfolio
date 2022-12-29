@@ -37,7 +37,7 @@ export const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          {/* <Nav className="me-auto">
             <a
               href="#home"
               className={
@@ -69,7 +69,7 @@ export const NavBar = () => {
                 Projects
               
             </a>
-          </Nav>
+          </Nav> */}
           <span className="navbar-text">
             <div className="social-icon">
               <a>
