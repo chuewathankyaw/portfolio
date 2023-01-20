@@ -65,14 +65,19 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent efficitur libero eu nunc tincidunt sollicitudin
-                    quis sed ipsum. Morbi sapien justo, hendrerit eu rutrum
-                    vitae, iaculis nec diam. Duis efficitur ultrices tristique.
+                    MY name is Chue Wathan Kyaw. I am 23 years old. I am
+                    currently working as a Full Stack Developer at ITVisiHub
+                    Group in Myanmar. I would like to make use of my technical
+                    skills and interpersonal skills to achieve company goals and
+                    customer satisfaction. I have strong confidence to work with
+                    the team. I have 2 years of hand on coding experience and
+                    including over 1 years of working experience.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let's Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <a href="#connect" className="bannerconnect">
+                    <button onClick={() => console.log("connect")}>
+                      Let's Connect <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
