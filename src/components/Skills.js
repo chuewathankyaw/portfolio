@@ -193,7 +193,7 @@ export const Skills = () => {
 
                   <span>intermediate</span>
                 </div>
-                <div className="skillsone btn_shadow">
+                {/* <div className="skillsone btn_shadow">
                   <h5>HTML</h5>
 
                   <div className="skilllogo">
@@ -210,7 +210,7 @@ export const Skills = () => {
                   </div>
 
                   <span>intermediate</span>
-                </div>
+                </div> */}
               </div>
               </div>
               {/* <Carousel
